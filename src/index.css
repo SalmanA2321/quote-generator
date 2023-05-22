@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FFF6E5;
+    font-family: 'Crimson Text', serif;
+  }
+}
+
+@layer components {
+  .card {
+    @apply flex flex-col gap-5 items-center p-10 border-2 border-brown rounded-md bg-white;
+  }
+  .btn {
+    @apply bg-brown text-white px-10 py-3 hover:bg-opacity-90 text-2xl rounded-md;
+  }
+}
